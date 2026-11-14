@@ -54,6 +54,23 @@ It uses a content-based recommendation approach with Cosine Distance and the Nea
 | Tempo | Speed of the song |
 | Valence | Musical positivity |
 
+## 📂 Dataset
+
+This project uses the **Ultimate Spotify Tracks DB** dataset, originally published on Kaggle by Zaheen Hamidani.
+
+The dataset contains approximately 232,725 track records and 18 columns, including artist information, genres, popularity, and audio features.
+
+**Dataset source:** [Ultimate Spotify Tracks DB – Kaggle](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db)
+
+### Download Instructions
+
+1. Visit the Kaggle dataset link above.
+2. Download the dataset.
+3. Extract `SpotifyFeatures.csv`.
+4. Place the CSV file in the project root directory.
+
+**Note:** The dataset is not included in this GitHub repository because of its file size. Please download it separately from Kaggle before running the project.
+
 ## 📂 Project Structure
 
 ```text
@@ -61,9 +78,9 @@ Spotify-Music-Recommendation-System/
 │
 ├── Spotify_Music_Recommendation.ipynb
 ├── Spotify.py
-├── SpotifyFeatures.csv
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 ## ⚙️ Installation and Setup
